@@ -1,0 +1,32 @@
+.about-container {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+.about-header-container {
+  margin-bottom: 50px;
+}
+
+.about-avatar {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+p {
+  margin-right: 20x;
+}
+.about-section {
+  max-width: 50%;
+  margin-right: 20px;
+  justify-content: center;
+}

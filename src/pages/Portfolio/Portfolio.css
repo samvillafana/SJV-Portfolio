@@ -1,0 +1,28 @@
+.portfolio-container {
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.portfolio-row-header {
+  display: flex;
+  align-items: center;
+}
+.portfolio-title {
+  font-weight: 400;
+}
+.portfolio-row-logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.portfolio-row {
+  height: 250px;
+  margin-right: 20px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+}

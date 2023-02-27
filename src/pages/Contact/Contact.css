@@ -1,0 +1,23 @@
+.contact-container {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contact-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+section > p > span > a {
+  text-decoration: none;
+}
+
+section > p {
+  font-weight: bold;
+}
+
+section > p > span {
+  font-weight: normal !important;
+}

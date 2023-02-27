@@ -1,0 +1,17 @@
+.project-container {
+  width: 150px;
+  height: 300px;
+  padding: 10px;
+  transition-duration: 0.5s;
+  transition-delay: 0.5ms;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-container:hover {
+  width: 200px;
+  height: 350px;
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
