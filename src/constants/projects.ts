@@ -1,4 +1,7 @@
 import photo from "../assets/project.jpg";
+import image from "../assets/project2.jpg";
+import Shot from "../assets/project3.jpg";
+import chat from "../assets/project4.jpg";
 export interface Project {
   imageUrl: string;
   title: string;
@@ -8,52 +11,52 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
+    imageUrl: chat,
+    title: "talk-io",
+    github: "https://github.com/samvillafana/talk-io",
+    type: "react",
+  },
+  {
+    imageUrl: Shot,
+    title: "FLTCK",
+    github: "https://github.com/samvillafana/FLTCHK-TRAVEL-TRACKER",
     type: "react",
   },
   {
     imageUrl: photo,
-    title: "Dog Finder",
+    title: "",
     github: "https://github.com/",
-    type: "react",
+    type: "",
   },
   {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "react",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "react",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
+    imageUrl: image,
+    title: "Weather Dashboard",
+    github: "https://samvillafana.github.io/weather-dashboard/",
     type: "react-native",
   },
   {
     imageUrl: photo,
-    title: "Dog Finder",
+    title: "",
     github: "https://github.com/",
-    type: "react-native",
+    type: "",
+  },
+  {
+    imageUrl: photo,
+    title: "",
+    github: "https://github.com/",
+    type: "",
+  },
+  {
+    imageUrl: photo,
+    title: "",
+    github: "https://github.com/",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "react-native",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "react-native",
+    type: "",
   },
   {
     imageUrl: photo,
