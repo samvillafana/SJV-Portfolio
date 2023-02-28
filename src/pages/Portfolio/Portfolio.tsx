@@ -2,7 +2,7 @@ import React from "react";
 import react from "../../assets/react.png";
 import reactNative from "../../assets/react-native.png";
 import node from "../../assets/node.png";
-import nextjs from "../../assets/nextjs.png";
+// import nextjs from "../../assets/nextjs.png";
 import sql from "../../assets/sql.png";
 import nosql from "../../assets/nosql.png";
 import { PortProject } from "../../components";
@@ -11,7 +11,7 @@ import "./Portfolio.css";
 
 const reactProjects = projects.filter((p) => p.type === "react");
 const reactNativeProjects = projects.filter((p) => p.type === "react-native");
-const nextProjects = projects.filter((p) => p.type === "nextjs");
+// const nextProjects = projects.filter((p) => p.type === "nextjs");
 const nosqlProjects = projects.filter((p) => p.type === "nosql");
 const sqlProjects = projects.filter((p) => p.type === "sql");
 const nodeProjects = projects.filter((p) => p.type === "node");
@@ -21,7 +21,7 @@ const Portfolio = () => {
     <div className="portfolio-container">
       <div className="portfolio-row-header">
         <img alt="" src={react} className="portfolio-row-logo" />
-        <h1 className="portfolio-title">React</h1>
+        <h1 className="portfolio-title">Team-Projects</h1>
       </div>
       <div className="portfolio-row">
         {reactProjects.map((el) => (
@@ -30,14 +30,14 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-row-header">
         <img alt="" src={reactNative} className="portfolio-row-logo" />
-        <h1 className="portfolio-title">React Native</h1>
+        <h1 className="portfolio-title">Home-Project</h1>
       </div>
       <div className="portfolio-row">
         {reactNativeProjects.map((el) => (
           <PortProject key={reactProjects.indexOf(el)} project={el} />
         ))}
       </div>
-      <div className="portfolio-row-header">
+      {/* <div className="portfolio-row-header">
         <img alt="" src={nextjs} className="portfolio-row-logo" />
         <h1 className="portfolio-title">Nextjs</h1>
       </div>
@@ -45,7 +45,7 @@ const Portfolio = () => {
         {nextProjects.map((el) => (
           <PortProject key={reactProjects.indexOf(el)} project={el} />
         ))}
-      </div>
+      </div> */}
       <div className="portfolio-row-header">
         <img alt="" src={nosql} className="portfolio-row-logo" />
         <h1 className="portfolio-title">NoSQL</h1>

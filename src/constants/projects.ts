@@ -2,6 +2,10 @@ import photo from "../assets/project.jpg";
 import image from "../assets/project2.jpg";
 import Shot from "../assets/project3.jpg";
 import chat from "../assets/project4.jpg";
+import soccer from "../assets/project5.jpg";
+import gen from "../assets/project6.jpg";
+import SQL from "../assets/project7.jpg";
+import NOSQL from "../assets/project8.jpg";
 export interface Project {
   imageUrl: string;
   title: string;
@@ -58,106 +62,106 @@ export const projects: Project[] = [
     github: "https://github.com/",
     type: "",
   },
+  // {
+  //   imageUrl: photo,
+  //   title: "Dog Finder",
+  //   github: "https://github.com/",
+  //   type: "nextjs",
+  // },
+  // {
+  //   imageUrl: photo,
+  //   title: "Dog Finder",
+  //   github: "https://github.com/",
+  //   type: "nextjs",
+  // },
+  // {
+  //   imageUrl: photo,
+  //   title: "Dog Finder",
+  //   github: "https://github.com/",
+  //   type: "nextjs",
+  // },
   {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "nextjs",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "nextjs",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "nextjs",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
+    imageUrl: NOSQL,
+    title: "social-network-app",
+    github: "https://github.com/samvillafana/social-network-apihttps://github.com/samvillafana/social-network-api",
     type: "nosql",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "nosql",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "nosql",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "nosql",
+    type: "",
   },
   {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
+    imageUrl: SQL,
+    title: "Employee Tracker",
+    github: "https://github.com/samvillafana/employee_tracker/blob/main/README.md",
     type: "sql",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "sql",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "sql",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "sql",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
+    type: "",
+  },
+  {
+    imageUrl: gen,
+    title: "README",
+    github: "https://github.com/samvillafana/Professional-Readme-Generator",
     type: "node",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "node",
+    type: "",
+  },
+  {
+    imageUrl: soccer,
+    title: "World Cup",
+    github: "https://samvillafana.github.io/QUIZ-CHALLENGE/",
+    type: "",
   },
   {
     imageUrl: photo,
     title: "Dog Finder",
     github: "https://github.com/",
-    type: "node",
+    type: "",
   },
   {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "node",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
-    type: "node",
-  },
-  {
-    imageUrl: photo,
-    title: "Dog Finder",
-    github: "https://github.com/",
+    imageUrl: soccer,
+    title: "World Cup",
+    github: "https://samvillafana.github.io/QUIZ-CHALLENGE/",
     type: "node",
   },
 ];
