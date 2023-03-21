@@ -6,6 +6,7 @@ import soccer from "../assets/project5.jpg";
 import gen from "../assets/project6.jpg";
 import SQL from "../assets/project7.jpg";
 import NOSQL from "../assets/project8.jpg";
+import Code from "../assets/project9.jpg"
 export interface Project {
   imageUrl: string;
   title: string;
@@ -14,12 +15,15 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+
+ 
   {
     imageUrl: chat,
     title: "talk-io",
     github: "https://github.com/samvillafana/talk-io",
     type: "react",
-  },
+  }, 
+  
   {
     imageUrl: Shot,
     title: "FLTCK",
@@ -27,10 +31,10 @@ export const projects: Project[] = [
     type: "react",
   },
   {
-    imageUrl: photo,
-    title: "",
-    github: "https://github.com/",
-    type: "",
+    imageUrl:Code,
+    title: "Code Tracker",
+    github: "https://shrouded-harbor-45723.herokuapp.com/",
+    type: "react",
   },
   {
     imageUrl: image,
