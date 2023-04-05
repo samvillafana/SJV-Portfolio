@@ -7,6 +7,7 @@ import gen from "../assets/project6.jpg";
 import SQL from "../assets/project7.jpg";
 import NOSQL from "../assets/project8.jpg";
 import Code from "../assets/project9.jpg"
+import News from "../assets/project10.jpg"
 export interface Project {
   imageUrl: string;
   title: string;
@@ -43,10 +44,10 @@ export const projects: Project[] = [
     type: "react-native",
   },
   {
-    imageUrl: photo,
-    title: "",
-    github: "https://github.com/",
-    type: "",
+    imageUrl: News,
+    title: "News App",
+    github: "https://news-app-ashen-eight.vercel.app/news/general",
+    type: "react",
   },
   {
     imageUrl: photo,
