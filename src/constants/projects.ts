@@ -44,8 +44,7 @@ export const projects: Project[] = [
     type: "react-native",
   },
   {
-    imageUrl: News,
-    title: "News App",
+    imageUrl: News, title: "News App",
     github: "https://news-app-ashen-eight.vercel.app/news/general",
     type: "react",
   },
