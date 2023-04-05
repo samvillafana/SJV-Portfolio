@@ -45,7 +45,7 @@ export const projects: Project[] = [
   },
   {
     imageUrl: News, title: "News App",
-    github: "https://news-app-ashen-eight.vercel.app/news/general",
+    github: "https://my-portfolio-sam-villafana.herokuapp.com/portfolio",
     type: "react",
   },
   {
