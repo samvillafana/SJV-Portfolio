@@ -28,7 +28,7 @@ export const projects: Project[] = [
   {
     imageUrl: Shot,
     title: "FLTCK",
-    github: "https://github.com/samvillafana/FLTCHK-TRAVEL-TRACKER",
+    github: "https://samvillafana.github.io/FLTCHK-TRAVEL-TRACKER/#reload",
     type: "react",
   },
   {
