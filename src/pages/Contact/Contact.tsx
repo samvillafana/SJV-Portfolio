@@ -9,7 +9,7 @@ const Contact = () => {
         <p>
           Email:{" "}
           <span>
-            <a href="https://mail.google.com">sjvillafna@gmail.com</a>
+            <a href="https://mail.google.com">sjvillafana@gmail.com</a>
           </span>{" "}
         </p>
         <p>
@@ -22,7 +22,9 @@ const Contact = () => {
           LinkedIn:{" "}
           <span>
             {" "}
-            <a href="https://www.linkedin.com/in/samuelvillafana/">www.linkedin.com</a>
+            <a href="https://www.linkedin.com/in/samuelvillafana/">
+              www.linkedin.com
+            </a>
           </span>{" "}
         </p>
         <p>
