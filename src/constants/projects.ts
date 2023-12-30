@@ -8,6 +8,7 @@ import SQL from "../assets/project7.jpg";
 import NOSQL from "../assets/project8.jpg";
 import Code from "../assets/project9.jpg";
 import News from "../assets/project10.jpg";
+import Weather from "../assets/weather-ai.png";
 export interface Project {
   imageUrl: string;
   title: string;
@@ -32,6 +33,12 @@ export const projects: Project[] = [
     imageUrl: image,
     title: "Weather Dashboard",
     github: "https://samvillafana.github.io/weather-dashboard/",
+    type: "react-native",
+  },
+  {
+    imageUrl: Weather,
+    title: "Weather AI",
+    github: "https://weather-app-sv-samvillafana-s-team.vercel.app",
     type: "react-native",
   },
   {

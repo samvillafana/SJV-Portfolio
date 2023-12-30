@@ -4,10 +4,15 @@
   padding: 10px;
   transition-duration: 0.5s;
   transition-delay: 0.5ms;
+  margin-right: 20px;
 }
 
 .project-image {
   width: 100%;
+}
+
+.project-title {
+  text-wrap: wrap;
 }
 
 .project-container:hover {
