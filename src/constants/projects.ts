@@ -6,8 +6,8 @@ import soccer from "../assets/project5.jpg";
 import gen from "../assets/project6.jpg";
 import SQL from "../assets/project7.jpg";
 import NOSQL from "../assets/project8.jpg";
-import Code from "../assets/project9.jpg"
-import News from "../assets/project10.jpg"
+import Code from "../assets/project9.jpg";
+import News from "../assets/project10.jpg";
 export interface Project {
   imageUrl: string;
   title: string;
@@ -16,15 +16,6 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-
- 
-  {
-    imageUrl: chat,
-    title: "talk-io",
-    github: "https://github.com/samvillafana/talk-io",
-    type: "react",
-  }, 
-  
   {
     imageUrl: Shot,
     title: "FLTCK",
@@ -32,9 +23,9 @@ export const projects: Project[] = [
     type: "react",
   },
   {
-    imageUrl:Code,
+    imageUrl: Code,
     title: "Code Tracker",
-    github: "https://shrouded-harbor-45723.herokuapp.com/",
+    github: "https://github.com/samvillafana/Project-3-Coding-Bootcamp",
     type: "react",
   },
   {
@@ -44,7 +35,7 @@ export const projects: Project[] = [
     type: "react-native",
   },
   {
-    imageUrl: News, 
+    imageUrl: News,
     title: "News App",
     github: "https://news-app-ashen-eight.vercel.app/news/general",
     type: "react",
@@ -88,7 +79,7 @@ export const projects: Project[] = [
   {
     imageUrl: NOSQL,
     title: "social-network-app",
-    github: "https://github.com/samvillafana/social-network-apihttps://github.com/samvillafana/social-network-api",
+    github: "https://github.com/samvillafana/social-network-api",
     type: "nosql",
   },
   {
@@ -112,7 +103,8 @@ export const projects: Project[] = [
   {
     imageUrl: SQL,
     title: "Employee Tracker",
-    github: "https://github.com/samvillafana/employee_tracker/blob/main/README.md",
+    github:
+      "https://github.com/samvillafana/employee_tracker/blob/main/README.md",
     type: "sql",
   },
   {
